@@ -4,7 +4,7 @@ const header=document.createElement("h1");
 const body=document.getElementsByTagName("body")[0];
 header.textContent="Entered Metaverse";
 function myfunction(){
-	body.removeChild(para);
-	body.appendChild(header);
+	para.textContent="";
+	para.appendChild(header);
 }
 
